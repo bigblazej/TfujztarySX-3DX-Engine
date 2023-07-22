@@ -1,7 +1,7 @@
 #include "AppWindow.h"
 
 
-
+//Prezes mi nie placi
 int  main()
 {
 	AppWindow app;
