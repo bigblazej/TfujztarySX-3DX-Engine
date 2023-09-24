@@ -40,7 +40,7 @@ bool Window::init()
 	wc.lpfnWndProc = &WndProc;
 	if (!::RegisterClassEx(&wc))
 		return false;
-	m_hwnd = ::CreateWindowEx(WS_EX_OVERLAPPEDWINDOW, L"MyWindowClass", L"Tfujztary 3D Engine", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 1024, 768, NULL, NULL, NULL, this);
+	m_hwnd = ::CreateWindowEx(WS_EX_OVERLAPPEDWINDOW, L"MyWindowClass", L"Tfujstary SX 3Dx Engine", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 1024, 768, NULL, NULL, NULL, this);
 	if (!m_hwnd)
 		return false;
 	::ShowWindow(m_hwnd, SW_SHOW);
