@@ -28,6 +28,9 @@
     <Filter Include="Engine\GraphicsEngine\PixelShader">
       <UniqueIdentifier>{e1cdc1d0-9960-42eb-9912-a0edc0db5ff5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\GraphicsEngine\ConstantBuffer">
+      <UniqueIdentifier>{f1bc708a-7e56-4472-bbba-0e8f78639ee8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -57,6 +60,9 @@
     <ClCompile Include="PixelShader.cpp">
       <Filter>Engine\GraphicsEngine\PixelShader</Filter>
     </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>Engine\GraphicsEngine\ConstantBuffer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppWindow.h">
@@ -82,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="PixelShader.h">
       <Filter>Engine\GraphicsEngine\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Engine\GraphicsEngine\ConstantBuffer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
