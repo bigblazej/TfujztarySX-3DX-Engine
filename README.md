@@ -1,2 +1,2 @@
 # TfujztarySX 3DX Engine
-Work In Progress. 
+will not be finished.
